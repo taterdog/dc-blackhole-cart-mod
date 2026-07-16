@@ -11,7 +11,7 @@ The mod turns the in-game cart into a searchable inventory.
 - Press `E` on the cart with empty hands to open the cart menu.
 - Click an item in the menu to put it back in your hands.
 - Use `Collect` to pull eligible nearby ground, cart, storage, and purchased
-  shop items into the cart.
+  shop items into the cart and clean up empty SFP/QSFP boxes.
 - Search, sort, scroll, and delete stored cart items.
 - Change cart part colors with hex color codes in the config file.
 - Cart contents persist per Data Center save file.
