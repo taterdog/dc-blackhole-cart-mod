@@ -16,27 +16,6 @@ The mod turns the in-game cart into a searchable inventory.
 - Change cart part colors with hex color codes in the config file.
 - Cart contents persist per Data Center save file.
 
-The cart preserves live item state while the game session is running. When Data
-Center saves the game, the mod writes a matching per-save cart inventory under
-`UserData/DataCenterBlackHoleCart/Saves/`. Stored items are reconstructed from
-that per-save record after the save loads.
-
-## Read This First
-
-Cart contents are committed only when Data Center saves the game. If you add or
-remove cart items and then quit or load another save without saving, those cart
-changes are discarded just like unsaved game-world changes.
-
-Cart files are still separate for each Data Center save file. Loading a
-different save loads that save's own last-saved black-hole cart inventory
-instead of the previous save's cart.
-
-The persistence record includes item identity, hand pose, SFP/QSFP box contents,
-cable spool length, and switch state including switch config fields, VLAN
-filters, and installed SFP/QSFP modules where the game exposes them.
-
-Back up important saves before using any mod for the first time.
-
 ## Download
 
 Current release: `v0.1.13`.
