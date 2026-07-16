@@ -71,23 +71,6 @@ Useful links:
 - .NET 6 downloads: <https://dotnet.microsoft.com/en-us/download/dotnet/6.0>
 - .NET Linux install docs: <https://learn.microsoft.com/en-us/dotnet/core/install/linux>
 
-## Full Guide
-
-Read the full guide:
-
-[docs/USER_GUIDE.md](docs/USER_GUIDE.md)
-
-It is organized by task:
-
-- start here;
-- install on Windows;
-- install on Linux / Steam Proton;
-- confirm the mod loaded;
-- use the cart;
-- edit config;
-- troubleshoot common problems;
-- uninstall.
-
 ## Confirm The Mod Loaded
 
 Open:
@@ -134,8 +117,6 @@ this folder along with the game's normal save data.
 
 ```text
 README.md
-docs/
-  USER_GUIDE.md
 releases/
   DataCenterBlackHoleCart-v0.1.13.zip
 ```
